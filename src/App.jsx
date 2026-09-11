@@ -7,6 +7,7 @@ import Counter from './day3/counter';
 import LikeButton from './day3/LikeButton';
 import CharacterCounter from './day3/CharacterCounter';
 import PasswordToggle from './day3/PasswordToggle';
+import TodoList from './day4/TodoList';
 function App(){
   return(
     <div> 
@@ -24,14 +25,16 @@ function App(){
       <h1>PRODUCT DETAILS </h1>
       <Product name ="AC" price="20000" category="Appliances"/>
       <Product name ="TV" price="20000" category="Appliances"/>*/}
-      <h1>DAY 3 EVENTS AND STATES</h1>
+      {/*<h1>DAY 3 EVENTS AND STATES</h1>
       <Counter/>
       <hr></hr>
       <LikeButton/>
       <hr></hr>
       <CharacterCounter/>
       <hr></hr>
-      <PasswordToggle/>
+      <PasswordToggle/>*/}
+      <h1>DAY 4</h1>
+      <TodoList/>
     </div>
   );
 }
