@@ -8,6 +8,8 @@ import LikeButton from './day3/LikeButton';
 import CharacterCounter from './day3/CharacterCounter';
 import PasswordToggle from './day3/PasswordToggle';
 import TodoList from './day4/TodoList';
+import StudentList from './day4/StudentList';
+import ProductList from './day4/ProductList';
 function App(){
   return(
     <div> 
@@ -33,8 +35,12 @@ function App(){
       <CharacterCounter/>
       <hr></hr>
       <PasswordToggle/>*/}
-      <h1>DAY 4</h1>
+      <h1>DAY 4 CONDITIONAL RENDERING & LISTS</h1>
       <TodoList/>
+      <hr></hr>
+      <StudentList/>
+      <hr></hr>
+      <ProductList/>
     </div>
   );
 }
