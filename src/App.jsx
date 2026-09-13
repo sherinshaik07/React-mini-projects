@@ -10,6 +10,7 @@ import PasswordToggle from './day3/PasswordToggle';
 import TodoList from './day4/TodoList';
 import StudentList from './day4/StudentList';
 import ProductList from './day4/ProductList';
+import LoginLogout from './day4/LoginLogout';
 function App(){
   return(
     <div> 
@@ -41,6 +42,8 @@ function App(){
       <StudentList/>
       <hr></hr>
       <ProductList/>
+      <hr></hr>
+      <LoginLogout/>
     </div>
   );
 }
