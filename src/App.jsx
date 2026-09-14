@@ -11,6 +11,7 @@ import TodoList from './day4/TodoList';
 import StudentList from './day4/StudentList';
 import ProductList from './day4/ProductList';
 import LoginLogout from './day4/LoginLogout';
+import Registrationform from './day5/Registrationform';
 function App(){
   return(
     <div> 
@@ -36,14 +37,16 @@ function App(){
       <CharacterCounter/>
       <hr></hr>
       <PasswordToggle/>*/}
-      <h1>DAY 4 CONDITIONAL RENDERING & LISTS</h1>
+      {/*<h1>DAY 4 CONDITIONAL RENDERING & LISTS</h1>
       <TodoList/>
       <hr></hr>
       <StudentList/>
       <hr></hr>
       <ProductList/>
       <hr></hr>
-      <LoginLogout/>
+      <LoginLogout/>*/}
+      <h1>DAY 5 FORMS</h1>
+      <Registrationform/>
     </div>
   );
 }
