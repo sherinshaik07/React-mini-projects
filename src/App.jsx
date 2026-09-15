@@ -12,6 +12,8 @@ import StudentList from './day4/StudentList';
 import ProductList from './day4/ProductList';
 import LoginLogout from './day4/LoginLogout';
 import Registrationform from './day5/Registrationform';
+import LoginForm from './day5/LoginForm';
+import ContactForm from './day5/ContactForm';
 function App(){
   return(
     <div> 
@@ -44,9 +46,12 @@ function App(){
       <hr></hr>
       <ProductList/>
       <hr></hr>
-      <LoginLogout/>*/}
+      <LoginLogout/>
       <h1>DAY 5 FORMS</h1>
-      <Registrationform/>
+      <Registrationform/>*/}
+      <h1>LOGIN FORM</h1>
+      <LoginForm/>
+      <ContactForm/>
     </div>
   );
 }
